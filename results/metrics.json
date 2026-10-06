@@ -1,0 +1,98 @@
+{
+  "n_train": 4620,
+  "n_test": 1540,
+  "accuracy": 0.9798701298701299,
+  "precision_macro": 0.9800987840010148,
+  "recall_macro": 0.9777226954646309,
+  "f1_macro": 0.9788616297856417,
+  "cv_accuracy_mean": 0.9765909090909091,
+  "cv_accuracy_std": 0.0080545659757588,
+  "rule_based_accuracy": 0.862987012987013,
+  "labels": [
+    "NORMAL",
+    "WARNING",
+    "FAULT"
+  ],
+  "confusion_matrix": [
+    [
+      678,
+      4,
+      0
+    ],
+    [
+      14,
+      442,
+      6
+    ],
+    [
+      0,
+      7,
+      389
+    ]
+  ],
+  "rule_confusion_matrix": [
+    [
+      679,
+      3,
+      0
+    ],
+    [
+      104,
+      348,
+      10
+    ],
+    [
+      0,
+      94,
+      302
+    ]
+  ],
+  "per_class": {
+    "NORMAL": {
+      "precision": 0.9797687861271677,
+      "recall": 0.9941348973607038,
+      "f1-score": 0.9868995633187773,
+      "support": 682.0
+    },
+    "WARNING": {
+      "precision": 0.9757174392935982,
+      "recall": 0.9567099567099567,
+      "f1-score": 0.966120218579235,
+      "support": 462.0
+    },
+    "FAULT": {
+      "precision": 0.9848101265822785,
+      "recall": 0.9823232323232324,
+      "f1-score": 0.9835651074589128,
+      "support": 396.0
+    },
+    "accuracy": 0.9798701298701299,
+    "macro avg": {
+      "precision": 0.9800987840010148,
+      "recall": 0.9777226954646309,
+      "f1-score": 0.9788616297856417,
+      "support": 1540.0
+    },
+    "weighted avg": {
+      "precision": 0.9798497267655539,
+      "recall": 0.9798701298701299,
+      "f1-score": 0.9798083283900925,
+      "support": 1540.0
+    }
+  },
+  "feature_importance": {
+    "vib_ma": 0.21521284685149505,
+    "vib_roll_rms": 0.19311692099508668,
+    "vibration_rms": 0.14721743437217982,
+    "rpm_ma": 0.11608369758889583,
+    "temp_ma": 0.08385212223304091,
+    "rpm": 0.08075236420987172,
+    "curr_ma": 0.06535689278398014,
+    "temperature": 0.056647890354933096,
+    "current": 0.032861435810173534,
+    "vib_rate": 0.0034828249929506412,
+    "curr_rate": 0.0029212998665316915,
+    "temp_rate": 0.0024942699408610196
+  },
+  "data_note": "Metrics are on SIMULATED data only; they do not predict real-machine performance."
+}

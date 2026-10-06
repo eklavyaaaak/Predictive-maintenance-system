@@ -1,0 +1,7 @@
+scenario,rpm,temperature,vibration_rms,current,health_score,rule_status,detected,recommended_action
+bearing_degradation,1486.4,90.45,5.413,12.45,33.1,FAULT,"Combined abnormal condition (high vibration, overheating)",Stop/inspect according to the applicable safety procedure and escalate to qualified maintenance personnel.
+combined,1457.6,81.61,4.799,15.66,42.1,FAULT,"Combined abnormal condition (high vibration, overheating, overload / high current)",Stop/inspect according to the applicable safety procedure and escalate to qualified maintenance personnel.
+imbalance,1484.6,57.35,6.273,12.03,20.0,FAULT,High vibration,"Inspect alignment, balance and bearing condition."
+misalignment,1470.8,65.06,5.403,13.18,38.3,FAULT,High vibration,"Inspect alignment, balance and bearing condition."
+overload,1425.6,77.49,2.721,17.04,53.4,FAULT,"Combined abnormal condition (overheating, overload / high current)",Stop/inspect according to the applicable safety procedure and escalate to qualified maintenance personnel.
+overspeed,1647.8,60.63,3.217,12.1,22.9,FAULT,"Combined abnormal condition (high vibration, overspeed)",Stop/inspect according to the applicable safety procedure and escalate to qualified maintenance personnel.
