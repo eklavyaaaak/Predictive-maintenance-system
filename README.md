@@ -1,3 +1,5 @@
+🚀 **[OPEN LIVE DASHBOARD](https://predictive-maintenance-system-heop22mxgrm67yxx5hg.streamlit.app)**
+
 # Rotating Machinery Predictive Maintenance System
 
 > **Portfolio / learning project. ALL sensor data is SIMULATED.** No real machine or sensor is used. Thresholds are *project-defined demonstration thresholds*, not values from a standard or manufacturer. This is **not** an industrial-certified system.
